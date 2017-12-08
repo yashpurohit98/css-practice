@@ -1,0 +1,20 @@
+*{
+    font-weight: bolder;
+    color: red;
+}
+
+.heading{
+    color: green;
+}
+
+#main{
+    color: blue;
+}
+
+p[value="4"]{
+    color: aqua;
+}
+
+p{
+    color: brown;
+}
