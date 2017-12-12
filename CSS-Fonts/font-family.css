@@ -1,0 +1,22 @@
+#doto{
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "ROND" 0;
+}
+#arial{
+    font-family: Arial, sans-serif;
+}
+#serif{
+    font-family: serif;
+}
+#sans-serif{
+    font-family: sans-serif;
+}
+#cursive{
+    font-family: cursive;
+}
+#fantasy{
+    font-family: fantasy;
+}
