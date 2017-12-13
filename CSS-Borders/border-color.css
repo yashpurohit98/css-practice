@@ -1,0 +1,14 @@
+.dotted-red{
+    border-style: dotted;
+    border-color: red;
+}
+
+.dashed-green{
+    border-style: dashed;
+    border-color: green;
+}
+
+.solid-blue{
+    border-style: solid;
+    border-color: blue;
+}
