@@ -1,0 +1,43 @@
+.paragraph{
+    margin: 5rem;
+}
+
+#para1{
+    border: 1px solid black;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    background-color: aqua;
+    width: fit-content;
+}
+#para2{
+    border: 1px solid black;
+    margin: 5rem;                       /* All four margins are 1rem each */
+    background-color: antiquewhite;
+    width: fit-content;
+}
+#para3{
+    border: 1px solid black;
+    margin: 3rem 5rem 4rem;             /* Top margin is 3rem, Right and Left margins are 5rem and Bottom margin is 4rem */
+    background-color: cadetblue;
+    width: fit-content;
+}
+#para4{
+    border: 1px solid black;
+    margin: 5rem 4rem;                  /* Top and Bottom margin are 5rem and Right and Left margins are 4rem */
+    background-color: aliceblue;
+    width: fit-content;
+}
+#para5{
+    border: 1px solid black;
+    margin: inherit;                    /* In this example the margin of <p> element is inherited from the parent element <div> */
+    background-color: burlywood;
+    width: fit-content;
+}
+#para6{
+    border: 1px solid black;
+    margin: auto;                       /* You can set the margin property to auto to horizontally center the element within its container. */
+    background-color: chocolate;     /* The element will then take up the specified width, and the remaining space will be split equally between the left and right margins. */
+    width: fit-content;
+}
