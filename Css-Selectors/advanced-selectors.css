@@ -1,0 +1,48 @@
+h1, h2{
+    color: blueviolet;
+}
+
+.box > p{
+    color: firebrick;
+}
+
+/* 
+
+Descendant 
+
+Selector selector {
+    color: blue;
+}
+
+*/
+
+.box li {
+    color:blue;
+}
+
+/*
+
+Chaining = Apply where ALL Selectors are true
+
+selectorselector { 
+    color: seagreen;
+}
+
+*/
+
+li.done {
+    color: seagreen;
+}
+
+/*
+
+Combining Combiners 
+
+selector selectorselector { 
+    font-size: 2rem;
+}
+
+*/
+ ul p.done {
+    font-size: 0.5rem;
+ }
